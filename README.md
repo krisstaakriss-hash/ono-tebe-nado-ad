@@ -1,1 +1,1 @@
-https://github.com/krisstaakriss-hash/ono-tebe-nado-adcd ono-tebe-nado-ad
+https://github.com/krisstaakriss-hash/ono-tebe-nado-ad

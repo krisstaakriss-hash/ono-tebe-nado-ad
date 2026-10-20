@@ -56,7 +56,8 @@
     background-position: center;
     display: flex;
     flex-direction: column;
-    padding: 50px 20px 30px 50px;
+    padding: 50px;
+    font-family: 'Raleway';
 }
 
 .overlay {
@@ -69,14 +70,13 @@
 .cover__title {
     flex-grow: 1;
     display: flex;
-    line-height: 114px;
+    line-height: 115px;
     flex-direction: column;
     justify-content: center;
     font-size: 100px;
     font-weight: 700;
     color: #fff;
     text-transform: uppercase;
-    position: relative;
     z-index: 2;
     letter-spacing: 30px;
 }
@@ -102,13 +102,13 @@
 }
 
 .cover__description-text {
-    word-spacing: 20px;
+    word-spacing: 18px;
     text-transform: uppercase;
     font-size: 22px;
 }
 
 .bet-button {
-    padding: 10px 30px;
+    padding: 12px 30px;
     background-color: transparent;
     font-size: 22px;
     text-transform: uppercase;
@@ -117,11 +117,11 @@
 }
 
 .lots {
-    padding: 150px 20px;
+    padding: 190px 20px;
 }
 
 .lots__heading {
-    padding: 0px 0px 20px 24px;
+    padding: 0px 0px 20px 40px;
     font-size: 40px;
     font-weight: 700;
     text-transform: uppercase;
@@ -257,13 +257,15 @@ article .overlay {
 .footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin: 150px 65px 90px;
+    margin: 150px 60px 90px;
+    justify-content: center;
 }
 
 .footer__address {
     font-style: normal;
     justify-self: start;
     max-width: 265px;
+    line-height: 24.3px;
     align-items: flex-start;
     font-size: 18px;
     display: flex;

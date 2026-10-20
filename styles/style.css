@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
     align-items: center;
-    padding: 70px 20px;
+    padding: 90px 45px;
 }
 
 .header__menu {
@@ -31,7 +31,7 @@
 }
 
 .header__logo {
-    width: 148px;
+    width: 125px;
 }
 
 .header__address {
@@ -214,7 +214,7 @@ article .overlay {
     height: 240px;
     background-color: #000;
     border-radius: 50%;
-    margin: 0px 20px;
+    margin: 0px 40px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -228,6 +228,7 @@ article .overlay {
 .about__column {
     display: flex;
     flex-direction: column;
+    padding: 30px;
     gap: 50px;
 }
 
@@ -235,7 +236,7 @@ article .overlay {
     font-weight: 700;
     font-size: 40px;
     text-transform: uppercase;
-    margin: 100px 0 40px 0;
+    margin: 60px 0 40px 0;
 }
 
 .about__text {

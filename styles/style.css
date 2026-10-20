@@ -125,11 +125,11 @@
 }
 
 .lots {
-    padding: 190px 20px;
+    padding: 185px 24px;
 }
 
 .lots__heading {
-    padding: 0px 0px 20px 40px;
+    padding: 0px 0px 25px 40px;
     font-size: 40px;
     font-weight: 700;
     text-transform: uppercase;
@@ -139,7 +139,7 @@
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 24px;
 }
 
 article {
@@ -147,7 +147,7 @@ article {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    padding: 48px 40px;
+    padding: 50px 40px;
     height: 100%;
     background-size: cover;
     background-position: center;
@@ -173,6 +173,7 @@ article .overlay {
     font-weight: 700;
     text-transform: uppercase;
     text-decoration: underline;
+    text-decoration-thickness: 1px;
     text-underline-offset: 3px;
 }
 
@@ -206,6 +207,7 @@ article .overlay {
   font-weight: 400;
   font-size: 20px;
   text-decoration: underline;
+  text-decoration-thickness: 1px;
   text-underline-offset: 5px;
   color: #000;
 }
